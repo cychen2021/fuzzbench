@@ -40,7 +40,7 @@ docker/generated.mk
 *~
 \#*\#
 
-.vscode
+# .vscode
 
 # Vim backup files.
 .*.swp
