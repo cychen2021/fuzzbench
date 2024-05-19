@@ -44,3 +44,8 @@ docker/generated.mk
 
 # Vim backup files.
 .*.swp
+
+elm.Dockerfile
+elmbuild.sh
+elm_*.py
+elm_*.cc
