@@ -22,8 +22,7 @@ RUN apt-get update && \
     autoconf \
     automake \
     libtool \
-    zlib1g-dev \
-    bear
+    zlib1g-dev
 
 RUN git clone \
         --depth 1 \
