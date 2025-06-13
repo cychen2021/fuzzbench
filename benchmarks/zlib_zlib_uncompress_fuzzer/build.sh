@@ -17,7 +17,7 @@
 
 ./configure
 make -j$(nproc) clean
-make -j$(nproc) all
+bear make -j$(nproc) all
 
 # Do not make check as there are tests that fail when compiled with MSAN.
 # make -j$(nproc) check
