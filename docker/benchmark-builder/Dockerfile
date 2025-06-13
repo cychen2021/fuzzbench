@@ -36,7 +36,8 @@ RUN apt-get update && \
     xz-utils \
     zlib1g-dev \
     libssl-dev \
-    libffi-dev
+    libffi-dev \
+    bear
 
 RUN rm -rf /usr/local/bin/python3.8* /usr/local/bin/pip3 /usr/local/lib/python3.8 \
     /usr/local/include/python3.8 /usr/local/lib/python3.8/site-packages
